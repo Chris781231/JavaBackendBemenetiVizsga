@@ -9,7 +9,7 @@ import java.util.NoSuchElementException;
 
 public class Pokebag {
 
-    private List<Pokemon> pokemons = new ArrayList<>();
+    private final List<Pokemon> pokemons = new ArrayList<>();
 
     public void add(Pokemon pokemon) {
         if (pokemon == null) throw new IllegalArgumentException("pokemon is null");

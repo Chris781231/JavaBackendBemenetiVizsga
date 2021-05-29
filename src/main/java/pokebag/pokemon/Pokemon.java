@@ -6,10 +6,10 @@ public abstract class Pokemon {
     protected int strength;
     protected String name;
 
-    public Pokemon() {
+    protected Pokemon() {
     }
 
-    public Pokemon(String name) {
+    protected Pokemon(String name) {
         this.name = name;
     }
 
