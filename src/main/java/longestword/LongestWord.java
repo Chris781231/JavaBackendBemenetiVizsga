@@ -10,7 +10,7 @@ public class LongestWord {
     private String longestWord = "";
     private int maxLength = 0;
 
-    private static String WORD_SEPARATOR = " ";
+    private static final String WORD_SEPARATOR = " ";
 
     public String findLongestWord(String fileName) {
         if (isEmpty(fileName)) throw new IllegalArgumentException("invalid filename");
